@@ -1,0 +1,32 @@
+1. Buat Folder _db serta file didalamnya
+	a. database.sql
+2. Buat Folder app serta empat folder didalamnya
+	a. controllers
+	b. core
+	c. models
+	d. views
+3. Buat Folder inc serta file didalamnya
+	a. config.php
+4. Buat Folder layouts serta folder dan file didalamnya
+	a. assets
+		1) css
+		2) images
+	b. dashboard.php
+	c. index.php
+5. Buat File index.php
+6. Inisialisasi Composer
+7. Set PSR-4
+8. Install filp/whoops untuk memudahkan informasi error
+	composer require filp/woops
+9. Buat File .htaccess
+10. Bangun teknik MVC mulai dari
+	a. app/core/Bootstrap.php
+	b. app/core/Controller.php
+	c. app/core/Model.php
+	d. app/core/Error.php
+11. Setting Model untuk terhubung dengan Database
+	a. app/models/Namaclass.php
+12. Setting Controller
+	a. app/controllers/Namaclass.php
+13. Setting View
+	a. app/view/Namafolder/Namafile.php

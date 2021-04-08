@@ -1,0 +1,19 @@
+{
+    "name": "personal/oop-praktikum-1",
+    "type": "project",
+    "require-dev": {
+        "webmozart/assert": "^1.10"
+    },
+    "authors": [
+        {
+            "name": "widyoari",
+            "email": "widyoari@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+                "psr-4": {
+            "App\\": "app/"
+            }
+        }
+    }
